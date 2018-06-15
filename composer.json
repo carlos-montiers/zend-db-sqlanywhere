@@ -1,0 +1,36 @@
+{
+  "name": "carlos-montiers/zend-db-sqlanywhere",
+  "type": "zf2-module",
+  "description": "CarlosMontiersZendDbSqlAnywhere is a ZF2 module that provide a driver for Zend Db for connect to a SAP SQL Anywhere database.",
+  "keywords": [
+    "sqlanywhere",
+    "carlosmontiers",
+    "zenddb",
+    "zf2"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/carlos-montiers/zend-db-sqlanywhere.git",
+  "authors": [
+    {
+      "name": "Carlos Montiers Aguilera",
+      "email": "cmontiers@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "zendframework/zend-db": "2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "CarlosMontiersZendDbSqlAnywhere": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.x-dev"
+    }
+  }
+}
